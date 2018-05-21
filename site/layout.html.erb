@@ -1,15 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/main.css">
-    <title>Honeymoon AB</title>
-</head>
-<body>
-    <%= yield %>
-</body>
-<footer>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/main.css">
+        <title>Honeymoon AB</title>
+    </head>
 
-</footer>
+    <body>
+
+        <header>
+
+        <a class="ptnav" href="pstida.hmtl"> 
+            <h1> 
+                PT 
+            </h1>
+        </a>    
+
+        <a class="tranav" href="traningssida.html"> 
+            <h1> 
+                Träning 
+            </h1>
+        </a>
+
+        <a class="utenav" href="utegym.html">
+            <h1> 
+                Utegym 
+            </h1>
+        </a>
+
+        </header>
+
+        <%= yield %>
+
+        <footer>
+
+        <a href="#"> 
+            <button class="insta"> 
+                <img src="" alt=""> 
+            </button> 
+        </a>
+
+        <a href="#"> 
+            <button class="face"> 
+                <img src="" alt=""> 
+            </button> 
+        </a>
+
+        <a href="#"> 
+            <button class="twitter"> 
+                <img src="" alt=""> 
+            </button> 
+        </a>
+
+        <a href="#"> 
+            <button class="contact"> 
+                <img src="" alt=""> 
+                    <h2>
+                        Kontakta oss   
+                    </h2>
+            </button> 
+        </a>
+
+        </footer>
+
+    </body>
+
 </html>
