@@ -1,36 +1,7 @@
-body{
-    background-color: #ffffff;
-    margin: 0px;
-}
-
 .container_p{
     grid-template-columns: repeat(1fr, 6);
     grid-template-rows: repeat(1fr, 12);
     display:grid;
-}
-
-h1{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2em;
-    color: #000000;
-    text-align: center;
-    vertical-align: center; 
-}
-
-h2{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1em;
-    color: #ffffff;
-    text-align: center;
-    vertical-align: center; 
-}
-
-P{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 0.4em;
-    color: black;
-    text-align: center;
-    vertical-align: center; 
 }
 
 div.container_p article{
@@ -61,6 +32,8 @@ div.container_p .boka_p{
     align-content: center;
     vertical-align: center;
 }
+
+
 
 
 
