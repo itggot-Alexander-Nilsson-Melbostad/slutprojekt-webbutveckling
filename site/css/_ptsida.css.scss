@@ -1,0 +1,67 @@
+body{
+    background-color: #ffffff;
+    margin: 0px;
+}
+
+.container_p{
+    grid-template-columns: repeat(1fr, 6);
+    grid-template-rows: repeat(1fr, 12);
+    display:grid;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    color: #000000;
+    text-align: center;
+    vertical-align: center; 
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: #ffffff;
+    text-align: center;
+    vertical-align: center; 
+}
+
+P{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.4em;
+    color: black;
+    text-align: center;
+    vertical-align: center; 
+}
+
+div.container_p article{
+    display:grid;
+    grid-template-columns: inherit;
+    grid-template-rows: repeat(1fr, 4);
+    grid-column: 2/6; //kanske köra 1/7 och sen lägga en padding/margin på den för att få whitespace
+    grid-row: 5/9;
+}
+
+div.container_p article h1{
+    grid-column: 2/6;
+    grid-row: 5/6;
+}
+
+div.container_p article p{
+    grid-column: 2/6;
+    grid-row: 6/9;
+    text-align: center;
+    vertical-align: center;
+}
+
+div.container_p .boka_p{
+    grid-column: 2/6;
+    grid-row: 10/12;
+    box-shadow: 10px, 10px, 10px, 10px #000000;
+    border-radius: none;
+    align-content: center;
+    vertical-align: center;
+}
+
+
+
+
