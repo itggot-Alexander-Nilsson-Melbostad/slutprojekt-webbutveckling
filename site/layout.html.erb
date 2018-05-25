@@ -4,22 +4,18 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/main.css">
-        <title>Honeymoon AB</title>
+        <title> Wilex Fitness AB </title>
     </head>
 
     <body>
 
         <header>
 
-        <a href="#">  
-            <img class="logo" src="" alt=""> 
+        <a href="index.html">  
+            <img class="logo" src="..\img\logotyp.png" alt="Wilex Fitness"> 
         </a>
 
-        <i class="menu"> 
-
-        </i>
-
-        <a class="ptnav" href="pstida.hmtl"> 
+        <a class="ptnav" href="ptsida.html"> 
             <h2> 
                 PT 
             </h2>
@@ -37,40 +33,58 @@
             </h2>
         </a>
 
+        <a class="contactnav" href="kontakt.html">
+            <h2> 
+                Kontakt
+            </h2>
+        </a>
+
+        <button onclick="menu()"> Menu </button>
+
+        <div class="menu visible">
+            <ul>
+                <li> <a href="#">Personlig Träning</a> </li>
+                <li> <a href="#">Träningsprogram</a> </li>
+                <li> <a href="#">Utegym</a> </li>
+                <li> <a href="#">Kontaktinoformation</a></li>
+            </ul>
+
+        </div>
+
         </header>
 
         <%= yield %>
 
         <footer>
 
-        <a href="#"> 
+        <a href="https://www.instagram.com/alexnilsson7/?hl=en"> 
             <button class="insta"> 
-                <img src="" alt=""> 
+                <img src="..\img\instagram.png" alt=""> 
             </button> 
         </a>
 
-        <a href="#"> 
+        <a href="https://www.facebook.com/"> 
             <button class="face"> 
-                <img src="" alt=""> 
+                <img src="..\img\facebook.png" alt=""> 
             </button> 
         </a>
 
-        <a href="#"> 
+        <a href="https://twitter.com/"> 
             <button class="twitter"> 
-                <img src="" alt=""> 
+                <img src="..\img\twitter.png" alt=""> 
             </button> 
         </a>
 
-        <a href="#"> 
-            <button class="contact"> 
-                <img src="" alt=""> 
-                    <h2>
+        <a href="kontakt.html" class="contact"> 
+            <button >  
+                    <h2 >
                         Kontakta oss   
                     </h2>
             </button> 
         </a>
 
         </footer>
+        <script src="./js/menu.js"></script> 
 
     </body>
 
