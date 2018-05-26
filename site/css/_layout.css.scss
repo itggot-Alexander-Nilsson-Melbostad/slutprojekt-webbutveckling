@@ -92,7 +92,7 @@ header .logo{
 header .menu{
     grid-column: 6/7;
     grid-row: 1/2;
-    background-color: white;
+    background-color: #000000
 }
 
 header .menu.hidden {
@@ -249,13 +249,14 @@ a.contact button{
         // background-image: url('../img/logotyp-mobil.png');
         // background-image: 
         padding-left: 130px;
-        padding-top: 10px;
+        padding-top: 20px;
     }
     
     header .menu{
         grid-column: 6/7;
         grid-row: 1/2;
-        background-color: white;
+        background-color: #000000;
+        padding-right: 100px;
     }
 
     .meny{
@@ -269,7 +270,6 @@ a.contact button{
     
     header .menu.visible {
         display: block;
-        display: none;
     }
     
      body footer{
@@ -318,6 +318,7 @@ a.contact button{
     a.contact button{
         background-color: #000000;
         box-shadow: 10px, 10px, 10px, 10px #ffffff;
-        font-size: 1em;
+        font-size: 0.85em;
+        
     }  
 }

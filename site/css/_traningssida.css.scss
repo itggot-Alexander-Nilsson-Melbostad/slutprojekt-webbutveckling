@@ -41,7 +41,7 @@ div.container_t .boka_t{
 
 @media screen and (max-width: 376px){
     .container_t{
-        grid-column: 1/7;
+        grid-column: 1/13;
         grid-row: 2/12;
         grid-template-rows: repeat(9, 1fr);
         grid-template-columns: repeat(6, 1fr);
@@ -50,15 +50,15 @@ div.container_t .boka_t{
     
     div.container_t article{
         grid-column: 2/6;
-        grid-row: 5/9;
+        grid-row: 4/9;
     }
     
     div.container_t h1{
-        font-size: 2em;
+        font-size: 1.2em;
     }
     
     div.container_t p{
-        font-size: 1em;
+        font-size: 0.8em;
     }
     
     a.boka_t button{
@@ -72,8 +72,8 @@ div.container_t .boka_t{
         border-radius: none;
         align-content: center;
         vertical-align: center;
-        padding-left: 140px;
-        padding-bottom: 20px;
+        padding-left: 0px;
+        padding-bottom: 0px;
     }
     
     .overbild_t{
