@@ -20,7 +20,7 @@ div.container_k article{
 
 @media screen and (max-width: 376px){
     .container_k{
-        grid-column: 1/7;
+        grid-column: 1/13;
         grid-row: 2/12;
         grid-template-rows: repeat(9, 1fr);
         grid-template-columns: repeat(6, 1fr);
@@ -29,8 +29,12 @@ div.container_k article{
     
     div.container_k article{
         grid-column: inherit;
-        grid-row: 5/12;
+        grid-row: 4/12;
         grid-column: 1/7;
         padding-top: 10px;
+    }
+
+    div.container_k article h1{
+        font-size: 1em;
     }
 }
